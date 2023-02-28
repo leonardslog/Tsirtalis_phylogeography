@@ -28,6 +28,7 @@ northamer_crop <- crop(northamer,n_america.extent)
 crs(northamer_crop) <- crs.universal
 
 # plot map
+over.col <- colorRampPalette(c("white", "black"))
 terra::plot(srtm.NA,
             col=alpha(over.col(100),0.4),
             ylim=c(24.5, 54),xlim=c(-130,-59.5),
