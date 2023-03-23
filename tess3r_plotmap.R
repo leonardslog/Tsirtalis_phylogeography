@@ -1,4 +1,3 @@
-setwd("~/Documents/sirtalis/tess_r80_reassigned/")
 library(easypackages)
 libraries("maps","rgdal","raster","RColorBrewer","scales",
           "maptools","gridExtra","rgeos","geodata","terra",
@@ -7,7 +6,7 @@ libraries("maps","rgdal","raster","RColorBrewer","scales",
 # import data
 # Coordinates file must be in long,lat order without individual names
 
-vcf <- read.vcfR(file = "sirtalis_tesspops_p1r80.vcf")
+vcf <- read.vcfR(file = "sirtalis.vcf")
 genlight <- vcfR2genlight(vcf,n.cores = 8)
 locality.info <- read.csv("sirtalis_samples.csv",stringsAsFactors = F)
 head(locality.info)
