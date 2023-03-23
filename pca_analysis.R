@@ -1,4 +1,3 @@
-rm(list=ls())
 library(easypackages)
 libraries("adegenet","RColorBrewer","parallel","RColorBrewer", "ggplot2")
 
