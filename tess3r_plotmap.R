@@ -58,8 +58,6 @@ rivers <- crop(riverslakes.centerlines,n_america.extent)
 lakes <- crop(lakes.centerlines, n_america.extent)
 US.rivers <- readOGR("USA_Rivers_and_Streams-shp/") # from https://hub.arcgis.com/datasets/esri::usa-rivers-and-streams/explore?location=39.980858%2C-119.086063%2C4.31
 
-
-
 # pull elevation data
 srtm.USA <- elevation_30s(country="USA",path = ".")
 srtm.CAN <- elevation_30s(country="CAN",path = ".")
