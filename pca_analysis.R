@@ -1,5 +1,4 @@
 rm(list=ls())
-setwd("~/Documents/sirtalis/pca/")
 library(easypackages)
 libraries("adegenet","RColorBrewer","parallel","RColorBrewer", "ggplot2")
 
@@ -11,21 +10,21 @@ libraries("adegenet","RColorBrewer","parallel","RColorBrewer", "ggplot2")
 locality.info <- read.csv("sample_summary.csv",stringsAsFactors = T)
 head(locality.info)
 
-total.vcf <- vcfR::read.vcfR("~/Documents/sirtalis/stacks/ele_map/sirtalis/p1r80/populations.snps.vcf")
+total.vcf <- vcfR::read.vcfR("sirtalis.vcf")
 # check that all samples in vcf and sample info are represented
 all(colnames(total.vcf@gt)[-1]== locality.info$sample) 
 total.gl <- vcfR::vcfR2genlight(total.vcf)
 ploidy(total.gl) <- 2
 pop(total.gl) <- locality.info$population
 
-z.vcf <- vcfR::read.vcfR("~/Documents/sirtalis/stacks/ele_map/sirtalis/z_p1r80/populations.snps.vcf")
+z.vcf <- vcfR::read.vcfR("sirtalis_z.vcf")
 # check that all samples in vcf and sample info are represented
 all(colnames(z.vcf@gt)[-1]== locality.info$sample) 
 z.gl <- vcfR::vcfR2genlight(z.vcf)
 ploidy(z.gl) <- 2
 pop(z.gl) <- locality.info$population
 
-autosomes.vcf <- vcfR::read.vcfR("~/Documents/sirtalis/stacks/ele_map/sirtalis/autosomes_p1r80/populations.snps.vcf")
+autosomes.vcf <- vcfR::read.vcfR("sirtalis_auto.vcf")
 # check that all samples in vcf and sample info are represented
 all(colnames(autosomes.vcf@gt)[-1]== locality.info$sample) 
 autosomes.gl <- vcfR::vcfR2genlight(autosomes.vcf)
