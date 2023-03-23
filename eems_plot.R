@@ -1,6 +1,3 @@
-rm(list = ls())
-currentdir <- getwd()
-setwd(currentdir)
 library(easypackages)
 libraries("ggplot2","rnaturalearth","raster","sp","rgeos","rgdal","terra","tidyterra","sf","geodata")
 
