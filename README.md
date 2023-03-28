@@ -1,4 +1,2 @@
 # Overview
-This repository contains code for analyses included in <a href="www.google.com">Jones et al., 2023</a>.
-
-## Subspecies Rangemap construction
+This repository contains code for analyses and figure generation included in a manuscript currently in review following resubmission to <i>Journal of Biogeography</i>. This page will soon be updated with links to the manuscript and more detailed tutorials for rangeshape generation from spatial data.
