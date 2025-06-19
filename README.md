@@ -1,2 +1,2 @@
 # Overview
-This repository contains code for analyses and figure generation included in a manuscript currently in review following resubmission to <i>Journal of Biogeography</i>. This page will soon be updated with links to the manuscript and more detailed tutorials for rangeshape generation from spatial data.
+This repository contains code for analyses and figures for "Biogeographic barriers and historic climate shape the phylogeography and demography of the common gartersnake", published in <a href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.14709"><i>Journal of Biogeography</i></a>. Data files can be found on <a href="https://datadryad.org/dataset/doi:10.5061/dryad.280gb5mtm">Dryad</a>.
