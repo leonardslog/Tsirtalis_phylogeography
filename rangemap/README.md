@@ -1,0 +1,1 @@
+supporting code for construction of <i>Thamnophis sirtalis</i> subspecies rangeshapes. will likely revise code for cleanliness and to add features i couldn't include in the publication. requires sample and range data available on the manuscript's Dryad submission.
