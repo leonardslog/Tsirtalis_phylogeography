@@ -5,7 +5,7 @@ import logging
 from autograd.numpy import log
 
 '''
-# tree structure with bidirectional southeast/central migration, 
+tree structure with bidirectional southeast/central migration, 
 bidirectional central/east migration, and west migration into central
 '''
 
