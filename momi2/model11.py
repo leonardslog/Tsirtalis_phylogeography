@@ -4,8 +4,11 @@ import matplotlib
 import logging
 from autograd.numpy import log
 
-# null model, tree structure with no migration
-
+'''
+tree structure with bidirectional southeast/central and central/east migration, 
+unidirectional migration events from west into central and east into southeast,
+and east population size change
+'''
 logging.basicConfig(level=logging.INFO,
                     filename="model11.log")
 
