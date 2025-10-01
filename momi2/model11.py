@@ -9,6 +9,7 @@ tree structure with bidirectional southeast/central and central/east migration,
 unidirectional migration events from west into central and east into southeast,
 and east population size change
 '''
+
 logging.basicConfig(level=logging.INFO,
                     filename="model11.log")
 
