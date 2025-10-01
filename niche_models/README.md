@@ -1,1 +1,1 @@
-scripts supporting ecological niche modeling of the four populations using <a href="https://github.com/danlwarren/ENMTools">ENMTools</a>.
+scripts supporting ecological niche modeling of the four populations using <a href="https://github.com/danlwarren/ENMTools">ENMTools</a>. plotting scripts were simply edited to better support map reprojection to fit consistency of the publication.
