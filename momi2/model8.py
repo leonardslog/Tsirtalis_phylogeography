@@ -4,7 +4,10 @@ import matplotlib
 import logging
 from autograd.numpy import log
 
-# null model, tree structure with no migration
+'''
+# tree structure with bidirectional southeast/central migration, 
+bidirectional central/east migration, and west migration into central
+'''
 
 logging.basicConfig(level=logging.INFO,
                     filename="model8.log")
