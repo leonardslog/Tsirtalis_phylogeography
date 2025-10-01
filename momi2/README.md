@@ -1,6 +1,6 @@
 ## Scripts for demographic analysis using <a href="https://github.com/popgenmethods/momi2">momi2</a> . 
 
-Model 0 - 
+Model 0 - null model, tree structure with no migration.  
 Model 1 -
 Model 2 -
 Model 3 -
